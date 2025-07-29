@@ -13,7 +13,7 @@ and represented as type `String`. <!-- TODO link to class documentation -->
 ### Syntax of strings
 
 ```ts
-let s: String = "hello"
+let s String = "hello"
 let s = "hello"
 // Compiler knows what qoutes mean 
 // and sets 's' type to 'String' for you
