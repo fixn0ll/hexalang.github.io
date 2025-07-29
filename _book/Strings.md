@@ -50,7 +50,7 @@ var s = "world" // Note using 'var' instead of 'let'
 s = s + " " // 's' now contains 'world '
 s = "hello " + s // Adds in front, 's' now contains 'hello world '
 s += "!" // Same as s = s + "!"
-console.log(a) // -> prints 'hello world !'
+console.log(s) // -> prints 'hello world !'
 ```
 
 ### Superpowers
@@ -114,7 +114,7 @@ Raw texts are surrounded by **&#96;backticks&#96;**. They don't care about speci
 ```ts
 console.log("hello\tworld") // -> prints 'hello    world'
 console.log('hello\tworld') // -> prints 'hello    world'
-console.log(`hello\tworld`) // -> prints 'hello\tworld'
+console.log(`hello\tworld`) // -> prints 'hello    world'
 ```
 
 Raw strings **do not** support interpolation:
